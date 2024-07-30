@@ -1,0 +1,28 @@
+# WordPress core files
+/wp-admin/
+/wp-includes/
+
+# Environment files
+/.env
+
+# Logs and databases
+*.log
+*.sql
+*.sqlite
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Ignore the uploads, cache, and upgrade directories
+/wp-content/uploads/
+/wp-content/cache/
+/wp-content/upgrade/
+
+/wp-content/plugins/*
+
+# Ignore the theme files
+/wp-content/themes/*
+
+# Ignore wp-config.php
+/wp-config.php
